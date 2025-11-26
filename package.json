@@ -1,0 +1,25 @@
+{
+  "name": "pdf-signature-proto",
+  "version": "0.0.0",
+  "description": "Prototype of pdf signature validation",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "vojtech.bocek@creditasgroup.cz",
+  "license": "MIT",
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "vite": "^7.2.4"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.2",
+    "pdfjs-dist": "^5.4.394",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-hook-form": "^7.66.1",
+    "yup": "^1.7.1"
+  }
+}
